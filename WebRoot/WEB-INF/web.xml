@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.user.web.servlet.StudentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.category.web.servlet.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplicationServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.application.ApplicationServlet.ApplicationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.application.ApplicationServlet.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeadmasterServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.user.web.servlet.HeadmasterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HeadmasterApplicationServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.user.web.servlet.HeadmasterApplicationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplicationUpLoadServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.application.ApplicationServlet.ApplicationUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplicationLoadFileServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.application.ApplicationServlet.ApplicationLoadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ApplicationLoadPictureServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.application.ApplicationServlet.ApplicationLoadPictureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MemberListUpLoadServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.memberList.memberList.servlet.MemberListUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MemberListLoadServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.memberList.memberList.servlet.MemberListLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.department.servlet.DepartmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MemberListServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.memberList.memberList.servlet.MemberListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MemberListLoadFileServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.memberList.memberList.servlet.MemberListLoadFileServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdmainServlet</servlet-name>
+    <servlet-class>tj.ustb.studentFunding.admain.servlet.AdmainServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplicationServlet</servlet-name>
+    <url-pattern>/ApplicationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet</servlet-name>
+    <url-pattern>/DownloadServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>HeadmasterApplicationServlet</servlet-name>
+    <url-pattern>/HeadmasterApplicationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HeadmasterServlet</servlet-name>
+    <url-pattern>/HeadmasterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplicationUpLoadServlet</servlet-name>
+    <url-pattern>/ApplicationUpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplicationLoadFileServlet</servlet-name>
+    <url-pattern>/ApplicationLoadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ApplicationLoadPictureServlet</servlet-name>
+    <url-pattern>/ApplicationLoadPictureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberListUpLoadServlet</servlet-name>
+    <url-pattern>/MemberListUpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberListLoadServlet</servlet-name>
+    <url-pattern>/MemberListLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentServlet</servlet-name>
+    <url-pattern>/DepartmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberListServlet</servlet-name>
+    <url-pattern>/MemberListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MemberListLoadFileServlet</servlet-name>
+    <url-pattern>/MemberListLoadFileServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdmainServlet</servlet-name>
+    <url-pattern>/AdmainServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
